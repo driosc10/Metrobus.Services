@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Metrobus.Services</name>
+    </assembly>
+    <members>
+        <member name="M:Metrobus.Services.Controllers.AlcaldiasController.Get">
+            <summary>
+            Obtiene toda la información de las Alcadias
+            </summary>
+            <returns>Lista de Alcaldias</returns>
+        </member>
+        <member name="M:Metrobus.Services.Controllers.MetrobusController.Get">
+            <summary>
+            Obtiene toda la información de los Metrobuses
+            </summary>
+            <returns>Lista de Metrobuses</returns>
+        </member>
+        <member name="M:Metrobus.Services.Controllers.MetrobusController.Get(System.Int32)">
+            <summary>
+            Obtiene la información del Metrobus por su identificador
+            </summary>
+            <param name="id"></param>
+            <returns>Metrobus</returns>
+        </member>
+        <member name="M:Metrobus.Services.Controllers.MetrobusController.Insert(Metrobus.Services.Models.Metrobuses)">
+            <summary>
+            Inserta la información de un Metrobus
+            </summary>
+            <param name="metrobus"></param>
+            <returns>ActionResult</returns>
+        </member>
+        <member name="M:Metrobus.Services.Controllers.MetrobusController.Update(Metrobus.Services.Models.Metrobuses)">
+            <summary>
+            Actualiza la información de un Metrobus
+            </summary>
+            <param name="metrobus"></param>
+            <returns>ActionResult</returns>
+        </member>
+        <member name="T:Metrobus.Services.Models.Alcaldias">
+            <summary>
+            Represent a entitty model of Alcaldias
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Alcaldias.AlcaldiaID">
+            <summary>
+            Identificador único de la Alcaldia
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Alcaldias.Name">
+            <summary>
+            Nombre de la Alcaldia
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Alcaldias.Latitud">
+            <summary>
+            Latitud de la Alcaldia
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Alcaldias.Longitud">
+            <summary>
+            Longitud de la Alcaldia
+            </summary>
+        </member>
+        <member name="T:Metrobus.Services.Models.Metrobuses">
+            <summary>
+            Represent a entitty model of Metrobuses
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Metrobuses.MetrobusID">
+            <summary>
+            Identificador único del Metrobus
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Metrobuses.Vehicle_ID">
+            <summary>
+            Identificador del vehículo
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Metrobuses.Latitud">
+            <summary>
+            Latitud del Metrobus
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Metrobuses.Longitud">
+            <summary>
+            Longitud del Metrobus
+            </summary>
+        </member>
+        <member name="P:Metrobus.Services.Models.Metrobuses.Date_Update">
+            <summary>
+            Fecha de actualización de las coordenadas del Metrobus
+            </summary>
+        </member>
+    </members>
+</doc>
